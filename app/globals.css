@@ -17,17 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.btn-list{
+  width: 100%;
+  border: 2px solid #d6d6d6;
+  margin-bottom: .5rem;
+  color: #000000;
+}
+.title{
+  padding: 0.5rem;
+  text-align: center;
+  background: #d6d6d6;
+}
+.container-list{
+  min-height: 600px;
+  border: 1px solid #d6d6d6;
+  text-align: center;
+}
+
+.btn-list-in{
+  width: 80%;
+  border: 2px solid #d6d6d6;
+  margin-top: .5rem;
+  color: #000000;
 }
